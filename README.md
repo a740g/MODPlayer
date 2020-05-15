@@ -1,9 +1,9 @@
 # MODPlayer
-Tracker Music player using MOD Plugin
+Tracker Music player using MOD Plugin.
 Plays module music (mod, s3m, xm, it) using the MOD Plugin MOD Playback Engine.
 What you need to compile and use this code:
-Visual C++ Express 2010 or better
-ModPlugin DLL (*IN THE APPLICATION OR THE WINDOWS\SYSTEM[32] FOLDER*)
+Visual C++ Express 2010 or better.
+ModPlugin DLL (*IN THE APPLICATION OR THE WINDOWS\SYSTEM[32] FOLDER*).
 You can get the modplugin DLL from https://www.castlex.com/.
 However, you will not get the import library and the header files. Those are mine!
 Creating the header file was easy but the import library was a pain.
