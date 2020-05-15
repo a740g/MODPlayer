@@ -22,7 +22,6 @@
     <None Include="res\MODPlayer.ico">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="MPAPI.TXT" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MODPlayer.h">

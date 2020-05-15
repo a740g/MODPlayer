@@ -104,7 +104,6 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="MPAPI.TXT" />
     <None Include="ReadMe.txt" />
     <None Include="res\MODPlayer.ico" />
     <None Include="res\MODPlayer.rc2" />
