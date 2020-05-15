@@ -1,6 +1,5 @@
 # MODPlayer
 Tracker Music player using MOD Plugin.
-demo (https://lh4.googleusercontent.com/emnKhWLzjM3vcRDL35tgEpb-EAaQCKRGzxIiCN05H3s0ZezhFJvpRIZ6EaeGmDiIuu0nF14reU8Uqxn_Cs80_X53vx3w2BBGOCvNOnsmICGm7PEpNw=w1280)
 Plays module music (mod, s3m, xm, it) using the MOD Plugin MOD Playback Engine.
 What you need to compile and use this code:
 Visual C++ Express 2010 or better.
