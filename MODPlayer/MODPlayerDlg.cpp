@@ -1,11 +1,11 @@
 ///////////////////////////////////////////////////////////////////
 //
-//	MODPlayer: Win32 Mod Player using ModPlugin DLL
+//	ModPlayer: Win32 Mod Player using ModPlugin DLL
 //
-//	Copyright (c) Samuel Gomes (Blade), 1998-2005
+//	Copyright © Samuel Gomes (Blade), 2002-2020
 //	mailto: v_2samg@hotmail.com || gomes.samuel@gmail.com
 //
-///////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 
 // MODPlayerDlg.cpp : implementation file
 //
@@ -51,7 +51,8 @@ END_MESSAGE_MAP()
 
 
 // Creates the ModPlugin object and sets it up with MFC
-BOOL CMODPlayerDlg::ModPluginCreate() {
+BOOL CMODPlayerDlg::ModPluginCreate()
+{
 	CString sArgs;
 	COLORREF clrBack;
 
@@ -96,7 +97,8 @@ BOOL CMODPlayerDlg::ModPluginCreate() {
 }
 
 // Destroys the ModPlugin object
-VOID CMODPlayerDlg::ModPluginDestroy() {
+VOID CMODPlayerDlg::ModPluginDestroy()
+{
 	// Stop any playback
 	ModPlug_Stop(m_pMP);
 
@@ -114,7 +116,8 @@ VOID CMODPlayerDlg::ModPluginDestroy() {
 }
 
 // Loads a new Mod file
-BOOL CMODPlayerDlg::ModPluginLoad(const CPath &p) {
+BOOL CMODPlayerDlg::ModPluginLoad(const CPath &p)
+{
 	CString sCaption;
 
 	// Normazile the filename

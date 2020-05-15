@@ -1,6 +1,11 @@
-// ModPlugin API Win32 C++ Header & Library
-// Copyright © Samuel Gomes (Blade), 2002-2005
-// mailto: v_2samg@hotmail.com
+///////////////////////////////////////////////////////////////////
+//
+//	MOD Plugin API Win32 C++ Header & Library
+//
+//	Copyright © Samuel Gomes (Blade), 2002-2020
+//	mailto: v_2samg@hotmail.com || gomes.samuel@gmail.com
+//
+//////////////////////////////////////////////////////////////////
 
 #ifndef __NPMOD_H_
 #define __NPMOD_H_

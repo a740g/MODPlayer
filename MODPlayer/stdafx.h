@@ -2,10 +2,10 @@
 //
 //	ModPlayer: Win32 Mod Player using ModPlugin DLL
 //
-//	Copyright (c) Samuel Gomes (Blade), 1998-2005
+//	Copyright © Samuel Gomes (Blade), 2002-2020
 //	mailto: v_2samg@hotmail.com || gomes.samuel@gmail.com
 //
-///////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 
 // stdafx.h : include file for standard system include files,
 // or project specific include files that are used frequently,
