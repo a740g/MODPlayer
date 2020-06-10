@@ -4,7 +4,7 @@ Tracker music player (mod, s3m, xm, it) using MOD Plugin playback engine by Oliv
 
 What you need to compile and use this code:
 
-1. Visual C++ Express 2010 or better.
+1. Visual Studio 2019 Community or better
 
 2. ModPlugin DLL (incuded).
 
