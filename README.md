@@ -1,4 +1,5 @@
 # MODPlayer
+![Screenshot](screenshot.gif)  
 Tracker Music player using MOD Plugin.
 Plays module music (mod, s3m, xm, it) using the MOD Plugin MOD Playback Engine.
 What you need to compile and use this code:
