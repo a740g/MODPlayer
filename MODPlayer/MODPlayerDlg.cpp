@@ -2,7 +2,7 @@
 //
 //	ModPlayer: Win32 Mod Player using ModPlugin DLL
 //
-//	Copyright © Samuel Gomes (Blade), 2002-2020
+//	Copyright © Samuel Gomes, 2002-2020
 //	mailto: v_2samg@hotmail.com || gomes.samuel@gmail.com
 //
 //////////////////////////////////////////////////////////////////

@@ -2,8 +2,7 @@
 //
 //	MOD Plugin API Win32 C++ Header & Library
 //
-//	Copyright © Samuel Gomes (Blade), 2002-2020
-//	mailto: v_2samg@hotmail.com || gomes.samuel@gmail.com
+//	Copyright © Samuel Gomes, 2002-2020
 //
 //////////////////////////////////////////////////////////////////
 

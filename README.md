@@ -8,9 +8,9 @@ What you need to compile and use this code:
 
 2. MOD Plugin DLL (incuded)
 
-3. MOD Plugin import library and the header files. Created by me.
+3. MOD Plugin import library and the header file created by me.
 Creating the header file was easy but the import library was a pain.
-The ModPlugin DLL uses the fastcall calling convention but uses cdecl naming convention.
+The MOD Plugin DLL uses the fastcall calling convention but uses cdecl naming convention.
 So finally I created an import library using function ordinals
 
 You can also dynamically load the DLL. But I always like load time linkage to keep things simple.
