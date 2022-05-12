@@ -9,7 +9,7 @@
 #ifndef __NPMOD32_H_
 #define __NPMOD32_H_
 
-	// This links in npmod32.dll
+// This links in npmod32.dll
 #pragma comment (lib, "npmod32")
 
 #define MP_ENTRY(_type_) extern "C" __declspec(dllimport) _type_ __stdcall
