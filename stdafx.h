@@ -46,7 +46,7 @@
 #include <atlpath.h>
 
 // Our ModPugin API functions
-#include "npmod.h"
+#include "npmod32.h"
 // Other stuff we need to use mainly (_find*())
 #include <io.h>
 
@@ -60,5 +60,3 @@
 #pragma comment(linker,"/manifestdependency:\"type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'\"")
 #endif
 #endif
-
-

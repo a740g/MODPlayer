@@ -11,18 +11,17 @@
 
 #pragma once
 
-
 // CMODPlayerDlg dialog
 class CMODPlayerDlg : public CDialogEx
 {
-// Construction
+	// Construction
 public:
 	CMODPlayerDlg(CWnd* pParent = NULL);	// standard constructor
 
 // Dialog Data
 	enum { IDD = IDD_MODPLAYER_DIALOG };
 
-	protected:
+protected:
 	virtual void DoDataExchange(CDataExchange* pDX);	// DDX/DDV support
 
 
@@ -38,7 +37,7 @@ protected:
 	// Custom dialog methods
 	BOOL ModPluginCreate();				// Created an instance of ModPlugin
 	VOID ModPluginDestroy();			// Destroys the instance of ModPlugin
-	BOOL ModPluginLoad(const CPath &p);	// Load a MOD file
+	BOOL ModPluginLoad(const CPath& p);	// Load a MOD file
 
 	// Generated message map functions
 	virtual BOOL OnInitDialog();

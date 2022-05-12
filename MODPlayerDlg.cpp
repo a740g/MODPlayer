@@ -19,10 +19,6 @@
 #define new DEBUG_NEW
 #endif
 
-
-// This links in npmod32.dll
-#pragma comment (lib, "npmod32")
-
 // CMODPlayerDlg dialog
 
 
@@ -80,9 +76,9 @@ BOOL CMODPlayerDlg::ModPluginCreate()
 		"vucolor|yellow|"
 		"vucolorhi|red"),
 		(int)LOBYTE(clrBack), (int)HIBYTE(clrBack), (int)LOBYTE(HIWORD(clrBack))
-		);
+	);
 	m_pMP = ModPlug_CreateEx(sArgs);
- 
+
 	if (m_pMP == NULL) return FALSE;
 
 	// Attach the plugin to our windows
@@ -116,12 +112,12 @@ VOID CMODPlayerDlg::ModPluginDestroy()
 }
 
 // Loads a new Mod file
-BOOL CMODPlayerDlg::ModPluginLoad(const CPath &p)
+BOOL CMODPlayerDlg::ModPluginLoad(const CPath& p)
 {
 	CString sCaption;
 
 	// Normazile the filename
-	((CPath &)p).Canonicalize();
+	((CPath&)p).Canonicalize();
 
 	// Stop any playback
 	ModPlug_Stop(m_pMP);
@@ -246,7 +242,7 @@ HCURSOR CMODPlayerDlg::OnQueryDragIcon()
 void CMODPlayerDlg::OnBnClickedOptions()
 {
 	RECT rect1, rect2;
-	CButton *myButton = (CButton *)GetDlgItem(IDC_OPTIONS);
+	CButton* myButton = (CButton*)GetDlgItem(IDC_OPTIONS);
 	if (myButton == NULL) return;
 	myButton->GetWindowRect(&rect2);
 	GetWindowRect(&rect1);
@@ -272,7 +268,7 @@ void CMODPlayerDlg::OnTimer(UINT nIDEvent)
 			(int)(dwModLen / 3600),
 			(int)((dwModLen % 3600) / 60),
 			(int)((dwModLen % 3600) % 60)
-			);
+		);
 
 		SetDlgItemText(IDC_TIME, sTime);
 	}
@@ -309,14 +305,14 @@ void CMODPlayerDlg::OnBnClickedOpen()
 		if (SHGetPathFromIDList(lpiidl, sDir)) {
 			sSpec = sDir;
 		}
-        CoTaskMemFree(lpiidl);
+		CoTaskMemFree(lpiidl);
 	}
 
 	if (sSpec.IsEmpty() || !PathIsDirectory(sDir)) return;
 	PathRemoveBackslash(sDir);
 
 	// Build the playlist
-	TCHAR *sExt[] = {TEXT("*.mod"), TEXT("*.mdz"), TEXT("*.s3m"), TEXT("*.s3z"), TEXT("*.xm"), TEXT("*.xmz"), TEXT("*.it"), TEXT("*.itz"), NULL};
+	TCHAR* sExt[] = { TEXT("*.mod"), TEXT("*.mdz"), TEXT("*.s3m"), TEXT("*.s3z"), TEXT("*.xm"), TEXT("*.xmz"), TEXT("*.it"), TEXT("*.itz"), NULL };
 	INT x = 0;
 
 	csaPlaylist.RemoveAll();

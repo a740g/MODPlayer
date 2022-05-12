@@ -39,7 +39,7 @@
     <ClInclude Include="Resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="npmod.h">
+    <ClInclude Include="npmod32.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
